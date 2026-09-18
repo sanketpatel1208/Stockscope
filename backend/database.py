@@ -7,6 +7,10 @@ DB_CONFIG = {
     "user": os.environ.get("DB_USER"),
     "password": os.environ.get("DB_PASSWORD"),
     "database": os.environ.get("DB_NAME", "stockscope"),
+
+    # Aiven SSL
+    "ssl_ca": os.path.join(os.path.dirname(__file__), "ca.pem"),
+    "ssl_verify_cert": True,
 }
 
 def get_connection():
