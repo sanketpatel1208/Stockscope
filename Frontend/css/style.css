@@ -2456,3 +2456,47 @@ canvas {
 #search #searchResult .metric-value {
     color: var(--text) !important;
 }
+/* ============================================================
+   SEARCH RESULT - BRIGHT CARD
+   ============================================================ */
+
+#search #searchResult .stock-card {
+    background: #ffffff !important;
+    color: #263447 !important;
+    border: 1px solid #d5ddec !important;
+    box-shadow: 0 3px 14px rgba(35, 55, 80, 0.055) !important;
+}
+
+#search #searchResult .stock-card h3 {
+    color: #263447 !important;
+}
+
+#search #searchResult .stock-symbol {
+    color: #2563eb !important;
+}
+
+#search #searchResult .stock-sector {
+    color: #64748b !important;
+}
+
+#search #searchResult .stock-company {
+    color: #263447 !important;
+}
+
+#search #searchResult .metric {
+    background: #f8fafc !important;
+    border: 1px solid #e2e8f0 !important;
+}
+
+#search #searchResult .metric-label {
+    color: #64748b !important;
+}
+
+#search #searchResult .metric-value {
+    color: #263447 !important;
+}
+
+#search #searchResult .stock-source {
+    color: #64748b !important;
+    border-top: 1px solid #e2e8f0 !important;
+}
