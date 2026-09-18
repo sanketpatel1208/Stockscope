@@ -1,4 +1,4 @@
-const API_URL = "https://stockscope-2-634q.onrender.com";
+const API_URL = "http://127.0.0.1:5000/api";
 
 var historyChart = null;
 
