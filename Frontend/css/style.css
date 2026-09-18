@@ -2420,42 +2420,7 @@ canvas {
     text-decoration: none;
     box-sizing: border-box;
 }
-/* ============================================================
-   SEARCH RESULT - DARK FINTECH THEME OVERRIDE
-   ============================================================ */
 
-#search #searchResult .stock-card {
-    background: var(--panel) !important;
-    border: 1px solid var(--border) !important;
-    color: var(--text) !important;
-    box-shadow: var(--shadow) !important;
-}
-
-#search #searchResult .stock-company {
-    color: var(--text) !important;
-}
-
-#search #searchResult .stock-sector {
-    color: var(--text-3) !important;
-}
-
-#search #searchResult .stock-source {
-    color: var(--text-3) !important;
-    border-top: 1px solid var(--border-soft) !important;
-}
-
-#search #searchResult .metric {
-    background: #0a111c !important;
-    border: 1px solid var(--border-soft) !important;
-}
-
-#search #searchResult .metric-label {
-    color: var(--text-3) !important;
-}
-
-#search #searchResult .metric-value {
-    color: var(--text) !important;
-}
 /* ============================================================
    SEARCH RESULT - BRIGHT CARD
    ============================================================ */
