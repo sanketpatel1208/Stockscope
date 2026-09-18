@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Stocks | StockScope</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="compare">
+
+<header class="header">
+    <div class="container nav-container">
+        <a class="logo" href="index.html">StockScope</a>
+        <nav class="nav">
+            <a href="index.html" data-page="dashboard">Dashboard</a>
+            <a href="search.html" data-page="search">Search</a>
+            <a href="screener.html" data-page="screener">Screener</a>
+            <a href="history.html" data-page="history">History</a>
+            <a href="compare.html" data-page="compare">Compare</a>
+            <a href="watchlist.html" data-page="watchlist">Watchlist</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+<section
+            class="section light-section"
+            id="compare"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        STOCK COMPARISON
+                    </span>
+
+                    <h2>
+                        Compare stocks side-by-side
+                    </h2>
+
+                    <p>
+                        Compare two to four stocks using important
+                        financial metrics.
+                    </p>
+
+                </div>
+
+
+
+                <div class="compare-box">
+
+                    <input
+                        type="text"
+                        id="compareSymbols"
+                        placeholder="Example: ABB, ITC, BEL"
+                    >
+
+
+                    <button
+                        onclick="compareStocks()"
+                        class="primary-button"
+                    >
+                        Compare
+                    </button>
+
+                </div>
+
+
+
+                <div id="compareResult">
+
+                </div>
+
+
+            </div>
+
+        </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>StockScope – Screen. Compare. Understand.</p>
+        <p>Academic project for stock research and analysis.</p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/app.js"></script>
+<script>
+    // Highlight the current page like a real multi-page website.
+    const currentPage = document.body.dataset.page;
+    document.querySelectorAll(".nav a[data-page]").forEach(link => {
+        if (link.dataset.page === currentPage) {
+            link.classList.add("active");
+            link.setAttribute("aria-current", "page");
+        }
+    });
+</script>
+
+</body>
+</html>

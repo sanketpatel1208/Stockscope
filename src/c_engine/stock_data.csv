@@ -1,0 +1,101 @@
+Symbol,Company_Name,Sector,Current_Price,Market_Cap,PE_Ratio,ROE,Debt
+ABB,ABB India Ltd,Capital Goods - Electrical Equipment,4675.0,99064.0,82.0,17.0,41.8
+ADANIENT,Adani Enterprises Ltd,Trading,2849.0,324781.0,125.0,9.63,57145.0
+ADANIPORTS,Adani Ports & Special Economic Zone Ltd,Marine Port & Services,1024.0,221274.0,28.0,14.4,50060.0
+ADANIPOWER,Adani Power Ltd,Power Generation & Distribution,525.0,202547.0,9.83,44.8,32367.0
+ALKEM,Alkem Laboratories Ltd,Pharmaceuticals,5203.0,62205.0,41.5,12.1,1441.0
+AMBUJACEM,Ambuja Cements Ltd,Cement,521.0,103432.0,34.8,10.8,745.0
+APOLLOHOSP,Apollo Hospitals Enterprise Ltd,Healthcare,5704.0,82016.0,118.0,13.7,4889.0
+ASHOKLEY,Ashok Leyland Ltd,Automobile,182.0,53305.0,25.1,15.0,34392.0
+ASIANPAINT,Asian Paints Ltd,Paints/Varnish,3402.0,326357.0,64.2,27.7,2327.0
+AUROPHARMA,Aurobindo Pharma Ltd,Pharmaceuticals,1084.0,63516.0,26.9,7.47,6649.0
+AXISBANK,Axis Bank Ltd,Banks,1102.0,339951.0,14.5,14.5,1152038.0
+BAJAJ-AUTO,Bajaj Auto Ltd,Automobile,6797.0,192484.0,28.1,20.2,125.0
+BAJFINANCE,Bajaj Finance Ltd,Finance,7328.0,452872.0,34.5,23.5,256549.0
+BANDHANBNK,Bandhan Bank Ltd,Banks,241.0,38887.0,15.3,11.9,132780.0
+BANKBARODA,Bank of Baroda,Banks,231.0,119510.0,6.49,15.1,1342592.0
+BEL,Bharat Electronics Ltd,Electronics,184.0,134646.0,40.5,22.8,61.4
+BERGEPAINT,Berger Paints India Ltd,Paints/Varnish,605.0,70484.0,68.3,20.4,1154.0
+BHARTIARTL,Bharti Airtel Ltd,Telecomm-Service,1032.0,605302.0,56.2,12.0,217359.0
+BIOCON,Biocon Ltd,Pharmaceuticals,250.0,29973.0,37.2,4.78,18252.0
+BOSCHLTD,Bosch Ltd,Auto Ancillaries,22204.0,65487.0,42.8,13.2,46.0
+BPCL,Bharat Petroleum Corporation Ltd,Refineries,451.0,97757.0,3.37,6.34,56335.0
+BRITANNIA,Britannia Industries Ltd,FMCG,5338.0,128586.0,57.7,66.6,2778.0
+CANBK,Canara Bank,Banks,438.0,79368.0,5.71,14.8,1237160.0
+CIPLA,Cipla Ltd,Pharmaceuticals,1246.0,100620.0,28.3,12.8,961.0
+COALINDIA,Coal India Ltd,Mining & Mineral products,376.0,231719.0,8.28,56.0,6313.0
+COFORGE,Coforge Ltd,IT - Software,6274.0,38694.0,53.3,25.1,1209.0
+COLPAL,Colgate-Palmolive (India) Ltd,FMCG,2530.0,68804.0,57.9,61.2,68.7
+CONCOR,Container Corporation Of India Ltd,Logistics,860.0,52378.0,44.2,10.6,821.0
+CUMMINSIND,Cummins India Ltd,Capital Goods-Non Electrical Equipment,1964.0,54441.0,41.2,21.6,271.0
+DABUR,Dabur India Ltd,FMCG,557.0,98738.0,57.0,19.5,1489.0
+DIVISLAB,Divis Laboratories Ltd,Pharmaceuticals,3904.0,103636.0,77.8,14.9,5.0
+DLF,DLF Ltd,Realty,726.0,179807.0,80.4,5.47,3317.0
+DRREDDY,Dr Reddys Laboratories Ltd,Pharmaceuticals,5798.0,96714.0,19.0,21.6,1323.0
+EICHERMOT,Eicher Motors Ltd,Automobile,4144.0,113439.0,31.7,21.1,416.0
+ESCORTS,Escorts Kubota Ltd,Automobile,2983.0,32963.0,36.2,8.56,53.3
+FEDERALBNK,Federal Bank Ltd,Banks,156.0,37997.0,10.4,15.3,238850.0
+GAIL,GAIL (India) Ltd,Gas Distribution,162.0,106582.0,20.2,8.69,17951.0
+GODREJCP,Godrej Consumer Products Ltd,FMCG,1131.0,115694.0,63.0,13.5,3275.0
+GODREJPROP,Godrej Properties Ltd,Realty,2013.0,55979.0,84.8,5.39,10262.0
+GRASIM,Grasim Industries Ltd,Textiles,2135.0,140566.0,21.2,8.85,121928.0
+HAL,Hindustan Aeronautics Ltd,Capital Goods-Non Electrical Equipment,2804.0,187525.0,31.0,27.2,0.37
+HAVELLS,Havells India Ltd,Consumer Durables,1368.0,85727.0,72.8,17.0,268.0
+HCLTECH,HCL Technologies Ltd,IT - Software,1466.0,397850.0,25.8,23.0,5268.0
+HDFCBANK,HDFC Bank Ltd,Banks,1709.0,1297668.0,19.2,17.1,2139212.0
+HEROMOTOCO,Hero MotoCorp Ltd,Automobile,4140.0,82744.0,24.7,16.7,651.0
+HINDALCO,Hindalco Industries Ltd,Non Ferrous Metals,615.0,138170.0,16.4,11.7,58372.0
+HINDPETRO,Hindustan Petroleum Corporation Ltd,Refineries,399.0,56586.0,3.4,-18.9,58010.0
+HINDUNILVR,Hindustan Unilever Ltd,FMCG,2664.0,625919.0,60.6,20.5,1272.0
+ICICIBANK,ICICI Bank Ltd,Banks,997.0,699063.0,17.4,17.2,1399894.0
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Insurance,535.0,77021.0,84.9,8.45,1200.0
+IDFCFIRSTB,IDFC First Bank Ltd,Banks,88.9,62824.0,21.6,10.6,201682.0
+INDHOTEL,Indian Hotels Co Ltd,Hotels & Restaurants,438.0,62263.0,56.6,12.7,2718.0
+INDIGO,Interglobe Aviation Ltd,Air Transport Service,2967.0,114514.0,20.4,,49392.0
+INDUSINDBK,IndusInd Bank Ltd,Banks,1599.0,124355.0,15.0,14.4,385449.0
+INFY,Infosys Ltd,IT - Software,1543.0,640373.0,25.8,31.8,8546.0
+IOC,Indian Oil Corporation Ltd,Refineries,130.0,183364.0,4.75,7.17,115418.0
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,Railways,888.0,71000.0,65.7,45.4,66.8
+ITC,ITC Ltd,Tobacco Products,462.0,576498.0,28.6,29.1,284.0
+JINDALSTEL,Jindal Steel & Power Ltd,Steel,748.0,76313.0,17.6,10.6,13467.0
+JSWSTEEL,JSW Steel Ltd,Steel,880.0,215261.0,24.2,5.64,81874.0
+KOTAKBANK,Kotak Mahindra Bank Ltd,Banks,1908.0,379241.0,22.1,14.3,418307.0
+LICI,Life Insurance Corporation of India,Insurance,832.0,526556.0,14.1,130.0,0.0
+LT,Larsen & Toubro Ltd,Infrastructure Developers & Operators,3526.0,484666.0,39.8,11.7,122109.0
+LUPIN,Lupin Ltd,Pharmaceuticals,1323.0,60237.0,45.2,3.33,3785.0
+M&M,Mahindra & Mahindra Ltd,Automobile,1729.0,215056.0,19.9,18.1,99712.0
+MARICO,Marico Ltd,Edible Oil,548.0,70968.0,50.3,35.8,493.0
+MARUTI,Maruti Suzuki India Ltd,Automobile,10302.0,323909.0,28.5,11.5,392.0
+MOTHERSON,Samvardhana Motherson International Ltd,Auto Ancillaries,102.0,69086.0,45.5,7.16,21750.0
+MPHASIS,Mphasis Ltd,IT - Software,2740.0,51717.0,32.2,21.9,1580.0
+NESTLEIND,Nestle India Ltd,FMCG,26580.0,256276.0,88.6,108.0,288.0
+NMDC,NMDC Ltd,Mining & Mineral products,210.0,61440.0,12.3,23.0,2143.0
+NTPC,NTPC Ltd,Power Generation & Distribution,311.0,301712.0,15.8,12.0,222552.0
+ONGC,Oil & Natural Gas Corpn Ltd,de Oil & Natural Gas,205.0,257959.0,5.49,14.1,143496.0
+PAGEIND,Page Industries Ltd,Readymade Garments/ Apparells,38513.0,42942.0,84.1,46.4,186.0
+PERSISTENT,Persistent Systems Ltd,IT - Software,7389.0,56843.0,56.6,25.3,555.0
+PFC,Power Finance Corporation Ltd,Finance,383.0,126262.0,7.04,20.4,814065.0
+PIDILITIND,Pidilite Industries Ltd,Chemicals,2715.0,138093.0,91.7,18.7,416.0
+PNB,Punjab National Bank,Banks,95.8,105430.0,17.9,3.34,1360496.0
+POWERGRID,Power Grid Corporation of India Ltd,Power Generation & Distribution,237.0,220610.0,14.4,19.6,119892.0
+RECLTD,REC Ltd,Finance,413.0,108713.0,8.53,20.4,419517.0
+RELIANCE,Reliance Industries Ltd,Refineries,2585.0,1748895.0,25.6,8.94,316697.0
+SAIL,Steel Authority of India Ltd,Steel,124.0,51074.0,15.3,3.57,30714.0
+SBIN,State Bank of India,Banks,642.0,573005.0,8.4,16.8,4989687.0
+SHREECEM,Shree Cement Ltd,Cement,28653.0,103383.0,54.5,7.45,2081.0
+SIEMENS,Siemens Ltd,Capital Goods - Electrical Equipment,4025.0,143328.0,75.0,15.5,152.0
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,Pharmaceuticals,1259.0,302184.0,33.8,16.6,1928.0
+TATACONSUM,Tata Consumer Products Ltd,Plantation & Plantation Products,1087.0,100965.0,81.8,6.86,1511.0
+TATAPOWER,Tata Power Company Ltd,Power Generation & Distribution,332.0,106133.0,31.1,12.6,52526.0
+TATASTEEL,Tata Steel Ltd,Steel,140.0,171671.0,2827.0,7.28,89723.0
+TCS,Tata Consultancy Services Ltd,IT - Software,3793.0,1388025.0,31.1,46.9,7764.0
+TECHM,Tech Mahindra Ltd,IT - Software,1273.0,124232.0,34.6,17.6,2614.0
+TITAN,Titan Company Ltd,Diamond Gems and Jewellery,3675.0,326301.0,98.8,30.8,14254.0
+TORNTPHARM,Torrent Pharmaceuticals Ltd,Pharmaceuticals,2306.0,78030.0,58.1,20.0,4487.0
+TRENT,Trent Ltd,Retail,3055.0,108600.0,182.0,11.9,4839.0
+TVSMOTOR,TVS Motor Company Ltd,Automobile,2026.0,96246.0,66.0,25.6,12853.0
+ULTRACEMCO,UltraTech Cement Ltd,Cement,10503.0,303209.0,53.3,9.63,11459.0
+VEDL,Vedanta Ltd,Mining & Mineral products,259.0,96108.0,19.4,20.4,75064.0
+VOLTAS,Voltas Ltd,Consumer Durables,978.0,32372.0,106.0,4.42,555.0
+WIPRO,Wipro Ltd,IT - Software,471.0,246218.0,21.2,15.9,17918.0
+ZEEL,Zee Entertainment Enterprises Ltd,Entertainment,275.0,26385.0,108.0,0.35,252.0

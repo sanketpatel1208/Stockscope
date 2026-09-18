@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Research Dashboard | StockScope</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="dashboard">
+
+<header class="header">
+    <div class="container nav-container">
+        <a class="logo" href="index.html">StockScope</a>
+        <nav class="nav">
+            <a href="index.html" data-page="dashboard">Dashboard</a>
+            <a href="search.html" data-page="search">Search</a>
+            <a href="screener.html" data-page="screener">Screener</a>
+            <a href="history.html" data-page="history">History</a>
+            <a href="compare.html" data-page="compare">Compare</a>
+            <a href="watchlist.html" data-page="watchlist">Watchlist</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+<section class="hero">
+
+            <div class="container hero-content">
+
+                <span class="section-label">
+                    STOCK RESEARCH PLATFORM
+                </span>
+
+
+                <h1>
+                    Research stocks<br>
+                    with clarity.
+                </h1>
+
+
+                <p>
+                    Screen, compare and understand stocks using
+                    financial fundamentals and historical market data.
+                </p>
+
+
+                <div class="hero-buttons">
+
+    <a href="screener.html" class="primary-button">
+        Start Screening →
+    </a>
+
+    <a href="search.html" class="secondary-button">
+        Search Stock →
+    </a>
+
+</div>
+
+            </div>
+
+        </section>
+
+<section class="stats-section">
+
+            <div class="container stats-grid">
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        Stocks Available
+                    </span>
+
+                    <strong id="stockCount">
+                        --
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        Price History
+                    </span>
+
+                    <strong>
+                        2015–2026
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        Watchlist
+                    </span>
+
+                    <strong id="watchlistCount">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        Fundamental Records
+                    </span>
+
+                    <strong>
+                        100
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+        </section>
+<section class="section features-section" id="features">
+    <div class="container">
+        <div class="section-heading">
+            <span class="section-label">PLATFORM FEATURES</span>
+            <h2>Everything you need to research stocks</h2>
+            <p>Explore stocks, screen opportunities and understand price movement from one dashboard.</p>
+        </div>
+
+        <div class="features-grid">
+
+    <a href="search.html" class="feature-card feature-link">
+        <div class="feature-icon">🔍</div>
+        <h3>Stock Search</h3>
+        <p>Look up any NSE stock instantly</p>
+        <span class="feature-action">Open Search →</span>
+    </a>
+
+    <a href="screener.html" class="feature-card feature-link">
+        <div class="feature-icon">📊</div>
+        <h3>Screener</h3>
+        <p>Filter stocks by P/E, ROE, Debt</p>
+        <span class="feature-action">Open Screener →</span>
+    </a>
+
+    <a href="history.html" class="feature-card feature-link">
+        <div class="feature-icon">📈</div>
+        <h3>Price History</h3>
+        <p>Visualize years of price data</p>
+        <span class="feature-action">Open History →</span>
+    </a>
+
+</div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>StockScope – Screen. Compare. Understand.</p>
+        <p>Academic project for stock research and analysis.</p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/app.js"></script>
+<script>
+    // Highlight the current page like a real multi-page website.
+    const currentPage = document.body.dataset.page;
+    document.querySelectorAll(".nav a[data-page]").forEach(link => {
+        if (link.dataset.page === currentPage) {
+            link.classList.add("active");
+            link.setAttribute("aria-current", "page");
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Price | StockScope</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="history">
+
+<header class="header">
+    <div class="container nav-container">
+        <a class="logo" href="index.html">StockScope</a>
+        <nav class="nav">
+            <a href="index.html" data-page="dashboard">Dashboard</a>
+            <a href="search.html" data-page="search">Search</a>
+            <a href="screener.html" data-page="screener">Screener</a>
+            <a href="history.html" data-page="history">History</a>
+            <a href="compare.html" data-page="compare">Compare</a>
+            <a href="watchlist.html" data-page="watchlist">Watchlist</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+<section
+            class="section light-section"
+            id="history"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        HISTORICAL ANALYSIS
+                    </span>
+
+                    <h2>
+                        Historical Price
+                    </h2>
+
+                    <p>
+                        View historical closing prices and understand
+                        long-term price movement.
+                    </p>
+
+                </div>
+
+
+
+                <div class="history-box">
+
+
+                    <div class="history-controls">
+
+
+                        <input
+                            type="text"
+                            id="historySymbol"
+                            placeholder="Enter stock symbol e.g. ABB"
+                        >
+
+
+                        <button
+                            onclick="loadHistory('1Y')"
+                        >
+                            1Y
+                        </button>
+
+
+                        <button
+                            onclick="loadHistory('3Y')"
+                        >
+                            3Y
+                        </button>
+
+
+                        <button
+                            onclick="loadHistory('5Y')"
+                        >
+                            5Y
+                        </button>
+
+
+                        <button
+                            onclick="loadHistory('MAX')"
+                        >
+                            MAX
+                        </button>
+
+
+                    </div>
+
+
+
+                    <div
+                        id="historyTitle"
+                        class="history-title"
+                    >
+                        Enter a stock symbol to view historical price.
+                    </div>
+
+
+
+                    <div class="chart-container">
+
+                        <canvas
+                            id="priceChart"
+                        ></canvas>
+
+                    </div>
+
+
+
+                    <div
+                        id="historyStatus"
+                        class="history-status"
+                    >
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>StockScope – Screen. Compare. Understand.</p>
+        <p>Academic project for stock research and analysis.</p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/app.js"></script>
+<script>
+    // Highlight the current page like a real multi-page website.
+    const currentPage = document.body.dataset.page;
+    document.querySelectorAll(".nav a[data-page]").forEach(link => {
+        if (link.dataset.page === currentPage) {
+            link.classList.add("active");
+            link.setAttribute("aria-current", "page");
+        }
+    });
+</script>
+
+</body>
+</html>
