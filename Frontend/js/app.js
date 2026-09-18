@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const API_URL = "https://stockscope-backend-3pip.onrender.com/api";
+=======
+const API_URL = "http://127.0.0.1:5000/api";
+>>>>>>> 1ab517f (Connect frontend to Render backend)
 
 var historyChart = null;
 
