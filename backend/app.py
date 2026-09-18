@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from database import get_connection
-
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -813,17 +813,8 @@ def remove_from_watchlist():
 # ============================================================
 
 if __name__ == "__main__":
-
-    app.run(
-        host="127.0.0.1",
-        port=5000,
-        debug=True
-    )
-import os
-
-if __name__ == "__main__":
     app.run(
         host="0.0.0.0",
-        port=int(os.environ.get("PORT", 10000)),
+        port=int(os.environ.get("PORT", 5000)),
         debug=False
     )
