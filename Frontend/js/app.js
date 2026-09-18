@@ -27,7 +27,21 @@ function formatCurrency(value) {
         maximumFractionDigits: 2
     });
 }
+function formatNumber(value) {
+    if (value === null || value === undefined || value === "") {
+        return "N/A";
+    }
 
+    var number = Number(value);
+
+    if (isNaN(number)) {
+        return value;
+    }
+
+    return number.toLocaleString("en-IN", {
+        maximumFractionDigits: 2
+    });
+}
 
 function formatDate(dateString) {
     if (!dateString) {
